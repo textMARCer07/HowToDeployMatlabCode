@@ -1,4 +1,4 @@
-# HowToDeployMatlabCode
+# How To Deploy Matlab Code 
 This Repository gives a tutorial on how to deploy MATLAB-Code within other languages.
 Provided are five example-functions deployed in Python and JavaScript.
 
