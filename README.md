@@ -4,8 +4,7 @@ Provided are five example-functions deployed in Python and JavaScript.
 
 The underlying workflow can be used to deploy MATLAB-Functions in every language, that provides any sort of usage of C-Code.
 The workflow makes use of the "MATLAB Coder"-Toolbox to create a library with using C-Code (.dll or .so) containing the translated functions and necessary function-depencies.
-
-
+<br>
 
 ## Explanation of Function-Functionality:
 
@@ -20,10 +19,19 @@ The Second function takes two inputs, adds them and multiplies the addition by 9
 <br>
 
 ### TestModelDoubleInOut:
-
+The third function takes two inputs, adds them together and multiplies the addition with 3 and 2, creating two seperate results
+###### (input1 + input2) * 3 = result1
+###### (input1 + input2) * 2 = result2
+<br>
 
 ### TestModelSingleInOutVariable:
-
+The fourth function takes an input and multiplies it with 12, but storing the information in the same variable, not creating a new one
+###### input1 * 12 = input1 (mathematically speaking)
+<br>
 
 ### TestModelSingleInOutArray:
-
+The fifth function takes an array of size 3 and changes each number to a new multiplication according to the following rules:
+###### array1 * array2 = array1
+###### array2 * array3 = array2
+###### array3 * array1 = array3
+<br>
