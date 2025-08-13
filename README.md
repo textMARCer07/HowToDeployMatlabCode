@@ -7,6 +7,8 @@ The workflow makes use of the "MATLAB Coder"-Toolbox to create a library with us
 <br>
 
 ## Explanation of Function-Functionality:
+All following calculations (grey) should be read "mathematically" and not logically (refer to the provided .m-files for latter)
+<br>
 
 ### TestModelSimple:
 The first Function takes one input value and multiplies it by 7
@@ -15,23 +17,23 @@ The first Function takes one input value and multiplies it by 7
 
 ### TestModelDoubleInput:
 The Second function takes two inputs, adds them and multiplies the addition by 9
-###### (input1 + input2) * 9 = result
+###### (input_1 + input_2) * 9 = result
 <br>
 
 ### TestModelDoubleInOut:
 The third function takes two inputs, adds them together and multiplies the addition with 3 and 2, creating two seperate results
-###### (input1 + input2) * 3 = result1
-###### (input1 + input2) * 2 = result2
+###### (input_1 + input_2) * 3 = result_1
+###### (input_1 + input_2) * 2 = result_2
 <br>
 
 ### TestModelSingleInOutVariable:
 The fourth function takes an input and multiplies it with 12, but storing the information in the same variable, not creating a new one
-###### input1 * 12 = input1 (mathematically speaking)
+###### input_1 * 12 = input_1
 <br>
 
 ### TestModelSingleInOutArray:
 The fifth function takes an array of size 3 and changes each number to a new multiplication according to the following rules:
-###### array1 * array2 = array1
-###### array2 * array3 = array2
-###### array3 * array1 = array3
+###### array_1 * array_2 = array_1
+###### array_2 * array_3 = array_2
+###### array_3 * array_1 = array_3
 <br>
