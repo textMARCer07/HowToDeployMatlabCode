@@ -8,7 +8,6 @@ The workflow makes use of the "MATLAB Coder"-Toolbox to create a library with us
 
 ## Explanation of Function-Functionality:
 ###### All following calculations should be read "mathematically" and not logically (refer to the provided .m-files for latter)
-<br>
 
 ### TestModelSimple:
 The first Function takes one input value and multiplies it by 7
