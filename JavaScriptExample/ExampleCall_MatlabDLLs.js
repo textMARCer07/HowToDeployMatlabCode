@@ -146,8 +146,8 @@ TestModelSingleInOutArray(input_array);
 //Read the new values written inside the C-Function
 const updated_array = readDoubleBuffer(input_array, input_array.length / 8); //Divide the array-length by 8 bytes per double
 
-// Add the whole array to .msg-object
-const result_5 = updated_array;
+// Log the updated array
 console.log("Expected: 14, 63, 18");
-console.table(result_5);
+console.table(updated_array);
+
 
