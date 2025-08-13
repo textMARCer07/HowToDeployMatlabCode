@@ -9,4 +9,16 @@ The workflow makes use of the "MATLAB Coder"-Toolbox to create a library with us
 
 ## Explanation of Function-Functionality:
 
-TestModelSimple:
+### TestModelSimple:
+The first Function takes one input value and multiplies it by 7
+###### input * 7 = result
+
+### TestModelDoubleInput:
+The Second function takes two inputs, adds them and multiplies the addition by 9
+###### (input1 + input2) * 9 = result
+
+### TestModelDoubleInOut:
+
+### TestModelSingleInOutVariable:
+
+### TestModelSingleInOutArray:
