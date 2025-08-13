@@ -11,7 +11,7 @@ The workflow makes use of the "MATLAB Coder"-Toolbox to create a library with us
 
 ### TestModelSimple:
 The first Function takes one input value and multiplies it by 7
-###### input * 7 = result
+###### input * 7 = result  
 \n
 
 ### TestModelDoubleInput:
