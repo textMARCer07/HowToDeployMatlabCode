@@ -44,7 +44,7 @@ const TestModelSimple = TestModelSimple_dll.func('double TestModelSimple(double 
 //SimpleModel takes the input and multiplies it by 7
 const result1 = TestModelSimple(3); //expected: 21
 //Log result1
-console.log('Result:', result1); //expected: 21
+console.log('Multiplied by 7:', result1); //expected: 21
 
 
 
@@ -62,7 +62,7 @@ const TestModelDoubleInput = TestModelDoubleInput_dll.func('double TestModelDoub
 //DoubleInputModel takes both inputs, adds them together and multiplies that by 9
 const result2 = TestModelDoubleInput(5, 3); //expected: 72
 //Log result2
-console.log('Result:', result2); //expected: 72
+console.log('Multiplied by 9', result2); //expected: 72
 
 
 
@@ -149,5 +149,6 @@ const updated_array = readDoubleBuffer(input_array, input_array.length / 8); //D
 // Log the updated array
 console.log("Expected: 14, 63, 18");
 console.table(updated_array);
+
 
 
